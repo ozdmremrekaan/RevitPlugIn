@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="Revit" Name="DPS Revit Plugin" Description="DPS Automation plugin for Revit." AppVersion="1.0.0" FriendlyVersion="1.0.0" ProductType="Application" SupportedLocales="Enu" AppNameSpace="appstore.exchange.autodesk.com" Author="DPS" HelpFile="./Contents/help.html" ProductCode="{20C36FF8-C40B-4548-BAC6-86DD5A95B60F}" UpgradeCode="{95F09163-F016-47DF-BEA4-8D0D074D0518}" Icon="./Contents/Resources/icon.ico" OnlineDocumentation="https://www.factoryreality.com/">
+  <CompanyDetails Name="Factory Reality" Email="automation@factoryreality.com" Url="https://www.factoryreality.com/" />
+  <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2019" SeriesMax="R2024" />
+  <Components Description="Partsx 2019">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2019" SeriesMax="R2019" />
+    <ComponentEntry AppName="DPS Revit Plugin" Version="1.0.0" ModuleName="./Contents/RevitPlugin.addin" AppDescription="DPS" />
+  </Components>  
+  <Components Description="Partsx 2020">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2020" SeriesMax="R2020" />
+    <ComponentEntry AppName="DPS Revit Plugin" Version="1.0.0" ModuleName="./Contents/RevitPlugin.addin" AppDescription="DPS" />
+  </Components>  
+  <Components Description="Partsx 2021">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2021" SeriesMax="R2021" />
+    <ComponentEntry AppName="DPS Revit Plugin" Version="1.0.0" ModuleName="./Contents/RevitPlugin.addin" AppDescription="DPS" />
+  </Components>  
+  <Components Description="Partsx 2022">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2022" SeriesMax="R2022" />
+    <ComponentEntry AppName="DPS Revit Plugin" Version="1.0.0" ModuleName="./Contents/RevitPlugin.addin" AppDescription="DPS" />
+  </Components>
+  <Components Description="Partsx 2023">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2023" SeriesMax="R2023" />
+    <ComponentEntry AppName="DPS Revit Plugin" Version="1.0.0" ModuleName="./Contents/RevitPlugin.addin" AppDescription="DPS" />
+  </Components>
+  <Components Description="Partsx 2024">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2024" SeriesMax="R2024" />
+    <ComponentEntry AppName="DPS Revit Plugin" Version="1.0.0" ModuleName="./Contents/RevitPlugin.addin" AppDescription="DPS" />
+  </Components>
+<Components Description="Partsx 2025">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2025" SeriesMax="R2025" />
+    <ComponentEntry AppName="DPS Revit Plugin" Version="1.0.0" ModuleName="./Contents/RevitPluginV2.addin" AppDescription="DPS" />
+  </Components>
+</ApplicationPackage>

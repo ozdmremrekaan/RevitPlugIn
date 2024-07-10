@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>RevitPlugIn</Name>
+		<FullClassName>RevitPlugIn.Interface.App</FullClassName>
+		<Text>RevitPlugIn</Text>
+		<Description>Show Hello World.</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>./myapp/RevitPlugIn.dll</Assembly>
+		<AddInId>72bedf13-6497-4c1b-a3a0-125470199435</AddInId>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+	</AddIn>
+
+</RevitAddIns>
+
+	

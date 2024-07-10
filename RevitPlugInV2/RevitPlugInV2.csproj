@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Images\Button_Clear.png" />
+	  <None Remove="Images\Button_List.png" />
+	  <None Remove="Images\Button_Select.png" />
+	  <None Remove="Images\Icon_Add.png" />
+	  <None Remove="Images\Icon_Create.png" />
+	  <None Remove="Images\Icon_Delete.png" />
+	  <None Remove="Images\Icon_Edit.png" />
+	  <None Remove="Images\Icon_FolderSelection.png" />
+	  <None Remove="Images\Icon_SelectFile.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Images\Button_Clear.png" />
+	  <EmbeddedResource Include="Images\Button_List.png" />
+	  <EmbeddedResource Include="Images\Button_Select.png" />
+	  <EmbeddedResource Include="Images\Icon_Add.png" />
+	  <EmbeddedResource Include="Images\Icon_Create.png" />
+	  <EmbeddedResource Include="Images\Icon_Delete.png" />
+	  <EmbeddedResource Include="Images\Icon_Edit.png" />
+	  <EmbeddedResource Include="Images\Icon_FolderSelection.png" />
+	  <EmbeddedResource Include="Images\Icon_SelectFile.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.0-preview.4.24266.19" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="AdWindows">
+			<HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2022\AdWindows.dll</HintPath>
+		</Reference>
+		<Reference Include="RevitAPI">
+			<HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2023\RevitAPI.dll</HintPath>
+		</Reference>
+		<Reference Include="RevitAPIUI">
+			<HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2023\RevitAPIUI.dll</HintPath>
+		</Reference>
+		
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Forms\AdminFamilyForm.cs">
+			<SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Forms\FamilyForm.cs">
+			<SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Forms\FamilyUploadForm.cs">
+			<SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Forms\LoginForm.cs">
+			<SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Forms\UserFamilyForm.cs">
+			<SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Forms\UserForm.cs">
+			<SubType>Form</SubType>
+		</Compile>
+	</ItemGroup>
+
+</Project>
